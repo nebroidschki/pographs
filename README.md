@@ -52,7 +52,7 @@ g++ -std=c++17 -o chen-strichartz_run chen-strichartz_run.cpp graph_visualizer.c
 ### With Mathematica BCD format output to file:
 ```bash
 ./chen-strichartz_run --degree 2 --mathematica output.m
-./chen-strichartz_run --degree 3 --mathematica graphs_deg3.m
+./chen-strichartz_run --degree 3 --mathematica output.m
 ```
 
 ### Additional options:
@@ -64,7 +64,7 @@ g++ -std=c++17 -o chen-strichartz_run chen-strichartz_run.cpp graph_visualizer.c
 ./chen-strichartz_run --degree 2 --bicolored false
 
 # Combined example
-./chen-strichartz_run --degree 4 --loop-order 1 --bicolored true --mathematica result.m
+./chen-strichartz_run --degree 4 --loop-order 1 --bicolored true --mathematica output.m
 ```
 
 ## Output
