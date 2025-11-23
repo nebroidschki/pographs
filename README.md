@@ -102,7 +102,7 @@ views[BCDgraphs_] :=
 SetDirectory["/Users/ts/graphs_colored"];
 
 (* Load the generated file *)
-Get["output.m"];
+Get[{NAME OF OUTPUT MATHEMATICA '.m' FILE}];
 
 (* The myBCDgraphs variable is now available *)
 (* views[myBCDgraphs] is automatically called *)
